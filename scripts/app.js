@@ -6,8 +6,11 @@ function anotherPage() {
     window.open("website-clone-master/website-clone-master/finetuned.html");
 }
 
+function geekpage() {
+    alert('Wrong password or ID!')
+    window.location.href = ("https://ug.fulokoja.edu.ng/new/");
+}
+
 submitEl.addEventListener('click', anotherPage)
 
-forgotEl.addEventListener('click', function(){
-    alert('Wrong password or ID!')
-})  
+forgotEl.addEventListener('click', geekpage)  
